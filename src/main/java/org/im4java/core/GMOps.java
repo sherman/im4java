@@ -9256,5 +9256,27 @@ public class GMOps extends Operation {
     return this;
   }
 
+    /**
+     * Add option -auto-orient to the ImageMagick commandline
+     * (see the documentation of GraphicsMagick for details).
+     */
 
+    public GMOps autoOrient() {
+
+        iCmdArgs.add("-auto-orient");
+
+        return this;
+    }
+
+    /**
+     * Add option -strip to the ImageMagick commandline
+     * (see the documentation of GraphicsMagick for details).
+     */
+
+    public GMOps strip() {
+
+        iCmdArgs.add("-strip");
+
+        return this;
+    }
 }
