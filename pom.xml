@@ -22,7 +22,7 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git@github.com:alexproca/im4java.git</connection>
+        <connection>git@github.com:sherman/im4java.git</connection>
         <url>scm:svn:https://im4java.svn.sourceforge.net/svnroot/im4java im4java</url>
         <developerConnection>
             scm:svn:https://im4java.svn.sourceforge.net/svnroot/im4java im4java
@@ -50,8 +50,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
             <plugin>
